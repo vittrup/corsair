@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+        <bean id="echoclient" class="org.corsair.central.jms.echo.EchoClient" init-method="init" destroy-method="destroy">
+                <property name="pooledConnectionFactory" ref="pooledConnectionFactory"/>
+        </bean>
+
+</blueprint>

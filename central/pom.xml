@@ -29,6 +29,10 @@
         </dependency>
     </dependencies>
 
+    <modules>
+        <module>jms/echo</module>
+    </modules>
+
     <!--<modules>-->
         <!--<module>helloworld-api</module>-->
         <!--<module>helloworld-server</module>-->
