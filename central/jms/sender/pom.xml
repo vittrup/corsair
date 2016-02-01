@@ -24,8 +24,8 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>jms-echo</artifactId>
-    <name>Corsair Central JMS Echo Service</name>
+    <artifactId>jms-sender</artifactId>
+    <name>Corsair Central JMS Sender Service</name>
     <packaging>bundle</packaging>
 
     <properties>

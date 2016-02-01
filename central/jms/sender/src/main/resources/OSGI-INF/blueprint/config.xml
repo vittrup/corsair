@@ -4,10 +4,10 @@
 
     <reference id="pooledConnectionFactory" interface="javax.jms.ConnectionFactory"/>
 
-    <bean id="echoclient" class="org.corsair.central.jms.sender.EchoClient" init-method="init" destroy-method="destroy">
+    <bean id="senderclient" class="org.corsair.central.jms.sender.SenderClient" init-method="init" destroy-method="destroy">
         <property name="pooledConnectionFactory" ref="pooledConnectionFactory"/>
         <property name="topic" value="Corsair.SampleBroker"/>
-        <property name="id" value="org.corsair.central.jms.sender.EchoClient"/>
+        <property name="id" value="org.corsair.central.jms.sender.SenderClient"/>
     </bean>
 
 </blueprint>
