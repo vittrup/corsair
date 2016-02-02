@@ -18,14 +18,14 @@ public class SenderClient {
     private Session session = null;
 
     public void init() throws JMSException {
-        connection = getPooledConnectionFactory().createConnection();
-        connection.setClientID(getId());
-        session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-        Topic topic = session.createTopic(getTopic());
-        MessageProducer producer = session.createProducer(topic);
-        TextMessage msg = session.createTextMessage();
-        msg.setText("Hello JMS World");
-        producer.send(msg);
+//        connection = getPooledConnectionFactory().createConnection();
+//        connection.setClientID(getId());
+//        session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+//        Topic topic = session.createTopic(getTopic());
+//        MessageProducer producer = session.createProducer(topic);
+//        TextMessage msg = session.createTextMessage();
+//        msg.setText("Hello JMS World");
+//        producer.send(msg);
 
     }
 
