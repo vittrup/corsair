@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.corsair</groupId>
-        <artifactId>central</artifactId>
+        <artifactId>jms</artifactId>
         <version>1.0.0</version>
     </parent>
 
